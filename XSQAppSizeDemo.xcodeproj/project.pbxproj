@@ -13,6 +13,7 @@
 		4A367A3D22969F6B00AFE168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A367A3C22969F6B00AFE168 /* Assets.xcassets */; };
 		4A367A4022969F6B00AFE168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A367A3E22969F6B00AFE168 /* LaunchScreen.storyboard */; };
 		4A367A4322969F6B00AFE168 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A367A4222969F6B00AFE168 /* main.m */; };
+		4A367A4B2296A1C500AFE168 /* XSQObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A367A4A2296A1C500AFE168 /* XSQObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		4A367A3F22969F6B00AFE168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A367A4122969F6B00AFE168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A367A4222969F6B00AFE168 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A367A492296A1C500AFE168 /* XSQObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSQObject.h; sourceTree = "<group>"; };
+		4A367A4A2296A1C500AFE168 /* XSQObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSQObject.m; sourceTree = "<group>"; };
+		4A367A4C2296A1DC00AFE168 /* XSQProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSQProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,9 @@
 				4A367A3E22969F6B00AFE168 /* LaunchScreen.storyboard */,
 				4A367A4122969F6B00AFE168 /* Info.plist */,
 				4A367A4222969F6B00AFE168 /* main.m */,
+				4A367A492296A1C500AFE168 /* XSQObject.h */,
+				4A367A4A2296A1C500AFE168 /* XSQObject.m */,
+				4A367A4C2296A1DC00AFE168 /* XSQProtocol.h */,
 			);
 			path = XSQAppSizeDemo;
 			sourceTree = "<group>";
@@ -142,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A367A3822969F6900AFE168 /* ViewController.m in Sources */,
+				4A367A4B2296A1C500AFE168 /* XSQObject.m in Sources */,
 				4A367A4322969F6B00AFE168 /* main.m in Sources */,
 				4A367A3522969F6900AFE168 /* AppDelegate.m in Sources */,
 			);
